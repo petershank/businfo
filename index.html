@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>busInfo</title>
+<script src = "main.js"></script>
 
+</head>
+
+<body>
+
+<form>
+  Bus:
+    <input 
+      type="text"
+      id="bus" 
+      onBlur="displayRoute()"
+    >
+  <br>
+  Route:
+    <input 
+      type="text"
+      id="route"
+      onBlur="displayBus()"
+    >
+</form>
+
+<button onclick="displayRoute()">Go</button>
+
+<div id="id01">foobarbazwow</div>
+
+</body>
+
+</html>
